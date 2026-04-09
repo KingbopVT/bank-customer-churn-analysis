@@ -45,4 +45,5 @@ This project analyzes customer data to predict churn and identify key factors af
 ---
 
 ## 📊 Dashboard
-(Add screenshot here)
+<img width="1117" height="625" alt="image" src="https://github.com/user-attachments/assets/f16cc916-0bf7-42fa-93af-d9daa74f2205" />
+
