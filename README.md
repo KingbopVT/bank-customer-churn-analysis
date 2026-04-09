@@ -1,16 +1,17 @@
 # bank-customer-churn-analysis
 # 💳 Bank Customer Churn Prediction
 
-## 📌 Overview
-This project analyzes customer data to predict churn and identify key factors affecting customer retention.
+## 📌 Overview Dataset 
 
----
+This project analyzes customer data to predict churn and identify key factors affecting customer retention.
+This dataset analyzes banking customer information to predict the risk of churn (Exited). The goal is to help the bank proactively retain customers by analyzing demographic characteristics and financial behavior.
+
 
 ## 🎯 Objectives
-- Identify factors influencing customer churn
-- Build a prediction model
-- Provide business insights to reduce churn
-
+Identify characteristics of customers at high risk of churn. 
+Key factors leading to high churn risk. 
+Analyze customer segments to develop appropriate intervention strategies.
+Solutions for customer retention.
 ---
 
 ## 📊 Dataset Features
@@ -25,44 +26,23 @@ This project analyzes customer data to predict churn and identify key factors af
 
 ## 🛠 Tools & Technologies
 - Python (Pandas, NumPy)
-- Scikit-learn (Logistic Regression)
 - Power BI
 - SQL
 
----
-
-## 📈 Key Insights
-- Customers with low balance are more likely to churn
-- Fewer products → higher churn risk
-- Credit score impacts retention
-
----
-
-## 🤖 Model
-- Logistic Regression
-- Evaluated using accuracy & confusion matrix
-
----
 
 ## 📊 Dashboard
 <img width="1117" height="625" alt="image" src="https://github.com/user-attachments/assets/f16cc916-0bf7-42fa-93af-d9daa74f2205" />
 
 ## 📊 Key Insights from Bank Customer Churn Analysis 
+<img width="638" height="345" alt="image" src="https://github.com/user-attachments/assets/6b6ac12d-d6fa-44e6-aa96-3e2f29d7e069" />
 
-### Overall Churn Rate & Distribution Patterns
-- In typical bank datasets (e.g., 10,000 customers), the churn rate often ranges from **19.6% to 20.4%** — roughly 1 in 5 customers leave the bank.
-- Churn is **not evenly distributed**. Certain customer segments show dramatically higher risk:
-  - **Inactive members** churn at **26.9%**, compared to only **14.3%** for active members (1.9× higher likelihood of leaving).
-  
-  - Customers aged **50–59** exhibit the highest churn rate (~56%), even though they represent a smaller portion of the base. They can account for nearly **24% of total churn*
-  <img width="674" height="283" alt="image" src="https://github.com/user-attachments/assets/66919b21-7cbe-4dd5-a460-9bb2e5e088b2" />
+The churn rate is about 20%. The average account balance of churned customers is 15% higher than the overall average for all customers. The average age of churned customers is about 5 years older than the average age of all customers. There is no significant difference in the credit scores of these two customer groups. Conclusion: the churned customer group mainly consists of older individuals who keep a lot of money in their accounts and have a slightly lower credit score.
 
- <img width="651" height="390" alt="image" src="https://github.com/user-attachments/assets/80823628-d64c-4e78-9560-5a9cfda9cd11" />
-  <img width="957" height="469" alt="image" src="https://github.com/user-attachments/assets/99652eee-685e-414e-b62f-197071e337c8" />
-<img width="828" height="406" alt="image" src="https://github.com/user-attachments/assets/3464fdcd-0512-4add-aaaa-a5d986114e3a" />
-
-
-
+Customer infographics: details
+<img width="594" height="503" alt="image" src="https://github.com/user-attachments/assets/fb5af613-a7b9-46ae-a769-3c6356b662be" />
+Age group: The age group of 18-25 and 26-35 is the least likely to leave, while the older groups of 46-55 and 56-65 leave much more, with the highest rate being 50%.
+Credit score: The general trend is that the higher the credit score, the lower the abandonment rate, with the highest rate being 57.6% in the credit score group of 300-499.
+Conclusion: Younger customers with higher credit scores are more loyal to banks, and age is the most significant factor affecting the churn rate.
 
 
 
