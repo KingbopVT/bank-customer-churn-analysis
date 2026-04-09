@@ -36,36 +36,70 @@ Solutions for customer retention.
 ## 📊 Key Insights from Bank Customer Churn Analysis 
 <img width="538" height="245" alt="image" src="https://github.com/user-attachments/assets/6b6ac12d-d6fa-44e6-aa96-3e2f29d7e069" />
 
-The churn rate is about 20%. The average account balance of churned customers is 15% higher than the overall average for all customers. The average age of churned customers is about 5 years older than the average age of all customers. There is no significant difference in the credit scores of these two customer groups. Conclusion: the churned customer group mainly consists of older individuals who keep a lot of money in their accounts and have a slightly lower credit score.
+## 📊 Key Findings from Exploratory Data Analysis (EDA)
 
-<img width="494" height="403" alt="image" src="https://github.com/user-attachments/assets/fb5af613-a7b9-46ae-a769-3c6356b662be" />
-Customer infographics: details
-Age group: The age group of 18-25 and 26-35 is the least likely to leave, while the older groups of 46-55 and 56-65 leave much more, with the highest rate being 50%.
-Credit score: The general trend is that the higher the credit score, the lower the abandonment rate, with the highest rate being 57.6% in the credit score group of 300-499.
-Conclusion: Younger customers with higher credit scores are more loyal to banks, and age is the most significant factor affecting the churn rate.
+### 1. Overall Churn Rate & Customer Profile Comparison
+- The overall **churn rate** in the dataset is approximately **20%**.
+- Churned customers have an **average account balance 15% higher** than the overall average.
+- The average **age** of churned customers is **about 5 years older** than non-churned customers.
+- There is **no significant difference** in credit scores between churned and retained customers.
 
-<img width="364" height="195" alt="image" src="https://github.com/user-attachments/assets/c62b518f-f31f-4eac-ab3b-b506f93c5fca" /> <img width="359" height="199" alt="image" src="https://github.com/user-attachments/assets/16bcc984-fa17-43c4-a7b9-74575373d1c3" />
+**Conclusion**:  
+Churned customers are mainly **older individuals** who maintain relatively high balances in their accounts. This suggests that wealthier, more mature customers are leaving the bank, which represents a significant loss of high-value clients.
 
-The bank's data was collected and investigated in three countries: France, Germany, and Spain.
-Among them, Germany is the country with the highest overall attrition rate among the three countries and also has the highest separate male and female attrition rates. However, this is also the country with the highest average balance value, so the high attrition rate of this customer group indicates that the bank has not yet found the right approach to handle this high-quality customer segment.
-Conclusion: More focus is needed on plans to attract and retain the largest and highest-quality customer group, which is the German population, as they have great potential but a high attrition rate. The reason could be due to more competitive offers from other banks.
+---
 
-<img width="483" height="224" alt="image" src="https://github.com/user-attachments/assets/06231480-93d2-472d-8924-274e9d3c800a" />
+### 2. Customer Demographics & Churn Patterns
 
-High-risk customer group: 
-Group 1: Only 1 product
+**Age Group Analysis**  
+- Younger customers (18–25 and 26–35 years old) are the **least likely to churn**.  
+- Older age groups (46–55 and 56–65) show significantly higher churn rates, with the highest churn rate reaching **50%** in certain older segments.
 
-Account for 50% of total customers but only have one card product, so there is still little connection with the bank, leaving immediately if there is a more suitable product at another bank.
+**Credit Score Analysis**  
+- There is a clear negative correlation: **the higher the credit score, the lower the churn rate**.  
+- Customers with low credit scores (300–499) have the highest churn rate at **57.6%**.
 
-Group 2: Over 55 years old
-This is a group of retired customers, with a lot of savings, who do not need loans, so they switch providers for more benefits and convenience for the elderly.
-Group 3: Credit score below 500
-This is a high-risk customer group when it comes to lending because most of them are young people, so the chances of loan approval are limited even tho this age group constitutes the majority of total customers.
+**Conclusion**:  
+Younger customers with higher credit scores tend to be more loyal to the bank. **Age** appears to be one of the most significant factors influencing customer churn.
 
-= > Solution
-Aggressive sales for a group with only one product:  
-This group mostly leaves because they do not have strong attachment or dependence on the bank, making it easy for them to leave. Selling additional products not only increases revenue but also significantly reduces the customer churn rate.  
+![Age Group Churn](https://github.com/user-attachments/assets/c62b518f-f31f-4eac-ab3b-b506f93c5fca)  
+![Credit Score Churn](https://github.com/user-attachments/assets/16bcc984-fa17-43c4-a7b9-74575373d1c3)
 
-Products for people with low credit scores:  
-The group with low credit scores is usually young people with low income, low average balances, and are not prioritized, resulting in a 100% churn rate. However, young people have high consumption needs and make up the majority of the total customers. Therefore, trying new products for this group is promising due to their consumption potential and long-term loyalty.
+---
 
+### 3. Geographic Analysis: France, Germany, and Spain
+The dataset covers customers from three countries: **France**, **Germany**, and **Spain**.
+
+- **Germany** has the **highest overall churn rate** among the three countries.  
+- It also records the highest churn rates for both **male** and **female** customers separately.  
+- However, Germany simultaneously has the **highest average account balance**, indicating that the bank is losing a large number of high-value, high-balance customers in this market.
+
+**Conclusion**:  
+The German customer segment represents a high-potential but high-risk group. The elevated churn rate, despite high balances, suggests strong competition from other banks offering better products, rates, or services. The bank needs to develop more targeted retention strategies specifically for the German market to protect and grow this valuable customer base.
+
+![Geography Churn](https://github.com/user-attachments/assets/06231480-93d2-472d-8924-274e9d3c800a)
+
+---
+
+### 4. High-Risk Customer Segments & Recommended Actions
+
+**High-Risk Groups Identified:**
+
+- **Group 1: Customers with only 1 product**  
+  This group accounts for nearly **50% of total customers**. With minimal connection to the bank, they are quick to switch when a better offer appears elsewhere.
+
+- **Group 2: Customers over 55 years old**  
+  Mostly retired individuals with substantial savings who do not need loans. They tend to switch banks for better benefits, convenience, and services tailored for seniors.
+
+- **Group 3: Customers with credit score below 500**  
+  This high-risk lending segment consists largely of young people. Despite making up a large portion of the customer base, they face difficulties getting loan approvals, leading to low satisfaction and high churn.
+
+**Recommended Solutions:**
+
+- **For customers with only 1 product**:  
+  Implement aggressive cross-selling strategies. Offering additional products (credit cards, savings accounts, insurance, investments) will increase customer engagement, create stronger attachment, and significantly reduce churn while boosting revenue.
+
+- **For customers with low credit scores**:  
+  Although currently high-risk, this group (mostly young customers) has high consumption needs and strong long-term potential. Developing tailored products such as beginner-friendly credit cards, micro-loans, or digital banking features could help build loyalty and convert them into long-term profitable customers.
+
+---
