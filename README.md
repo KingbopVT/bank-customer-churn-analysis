@@ -44,5 +44,9 @@ Age group: The age group of 18-25 and 26-35 is the least likely to leave, while 
 Credit score: The general trend is that the higher the credit score, the lower the abandonment rate, with the highest rate being 57.6% in the credit score group of 300-499.
 Conclusion: Younger customers with higher credit scores are more loyal to banks, and age is the most significant factor affecting the churn rate.
 
+<img width="364" height="195" alt="image" src="https://github.com/user-attachments/assets/c62b518f-f31f-4eac-ab3b-b506f93c5fca" /> <img width="359" height="199" alt="image" src="https://github.com/user-attachments/assets/16bcc984-fa17-43c4-a7b9-74575373d1c3" />
 
+The bank's data was collected and investigated in three countries: France, Germany, and Spain.
+Among them, Germany is the country with the highest overall attrition rate among the three countries and also has the highest separate male and female attrition rates. However, this is also the country with the highest average balance value, so the high attrition rate of this customer group indicates that the bank has not yet found the right approach to handle this high-quality customer segment.
+Conclusion: More focus is needed on plans to attract and retain the largest and highest-quality customer group, which is the German population, as they have great potential but a high attrition rate. The reason could be due to more competitive offers from other banks.
 
