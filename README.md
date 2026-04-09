@@ -38,8 +38,8 @@ Solutions for customer retention.
 
 The churn rate is about 20%. The average account balance of churned customers is 15% higher than the overall average for all customers. The average age of churned customers is about 5 years older than the average age of all customers. There is no significant difference in the credit scores of these two customer groups. Conclusion: the churned customer group mainly consists of older individuals who keep a lot of money in their accounts and have a slightly lower credit score.
 
-Customer infographics: details
 <img width="594" height="503" alt="image" src="https://github.com/user-attachments/assets/fb5af613-a7b9-46ae-a769-3c6356b662be" />
+Customer infographics: details
 Age group: The age group of 18-25 and 26-35 is the least likely to leave, while the older groups of 46-55 and 56-65 leave much more, with the highest rate being 50%.
 Credit score: The general trend is that the higher the credit score, the lower the abandonment rate, with the highest rate being 57.6% in the credit score group of 300-499.
 Conclusion: Younger customers with higher credit scores are more loyal to banks, and age is the most significant factor affecting the churn rate.
